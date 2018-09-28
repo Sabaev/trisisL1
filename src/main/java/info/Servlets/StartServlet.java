@@ -11,8 +11,7 @@ public class StartServlet extends javax.servlet.http.HttpServlet  {
     private void process(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.setCharacterEncoding("utf-8");
         response.getWriter().write(HtmlCreator.createHead("Привет, я сервлет который уже загружен в память, и отображаюсь на главной странице"));
-        response.getWriter().write(HtmlCreator.getRandRefer());
-        response.getWriter().write(HtmlCreator.createBottom(false,true,true,true));
+        response.getWriter().write(HtmlCreator.createBottom(false,false,true,false));
     }
 
     @Override

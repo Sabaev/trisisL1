@@ -20,29 +20,14 @@
     </listener>
 
     <servlet>
-        <servlet-name>AddServlet</servlet-name>
-        <servlet-class>info.Servlets.AddServlet</servlet-class>
+        <servlet-name>PlayersServlet</servlet-name>
+        <servlet-class>info.Servlets.PlayersServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>AddServlet</servlet-name>
-        <url-pattern>/add</url-pattern>
+        <servlet-name>PlayersServlet</servlet-name>
+        <url-pattern>/players</url-pattern>
     </servlet-mapping>
-    <servlet>
-        <servlet-name>ShowServlet</servlet-name>
-        <servlet-class>info.Servlets.ShowServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>ShowServlet</servlet-name>
-        <url-pattern>/show</url-pattern>
-    </servlet-mapping>
-    <servlet>
-        <servlet-name>DeleteServlet</servlet-name>
-        <servlet-class>info.Servlets.DeleteServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>DeleteServlet</servlet-name>
-        <url-pattern>/del</url-pattern>
-    </servlet-mapping>
+
     <servlet>
         <servlet-name>StartServlet</servlet-name>
         <servlet-class>info.Servlets.StartServlet</servlet-class>
@@ -52,15 +37,6 @@
         <servlet-name>StartServlet</servlet-name>
         <url-pattern></url-pattern>
     </servlet-mapping>
-    <servlet>
-        <servlet-name>RandomServlet</servlet-name>
-        <servlet-class>info.Servlets.RandomServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>RandomServlet</servlet-name>
-        <url-pattern>/rand</url-pattern>
-    </servlet-mapping>
-
 
 
 </web-app>
